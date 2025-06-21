@@ -9,7 +9,7 @@ repositories {
 
 dependencies {
     implementation("org.apache.logging.log4j:log4j-core:2.15.0")
-    implementation("com.google.guava:guava:33.0.0-jre") 
+    implementation("androidx.appcompat:appcompat:1.6.1")
     testImplementation(platform("org.junit:junit-bom:5.13.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
