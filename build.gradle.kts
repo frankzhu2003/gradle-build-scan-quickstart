@@ -7,12 +7,6 @@ repositories {
     mavenCentral()
 }
 
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17)) // Set your desired Java version
-    }
-}
-
 dependencies {
 
     implementation("org.apache.logging.log4j:log4j-core:2.15.0")
