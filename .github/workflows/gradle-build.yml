@@ -13,12 +13,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up JDK 8
+    - name: Set up JDK 21
       uses: actions/setup-java@v4
-      with:
-        java-version: '8'
+        with:
+        java-version: '21'
         distribution: 'temurin'
-    - name: Set up Gradle Build Action
-      uses: gradle/actions/setup-gradle@v3
+    - name: Set up Gradle
+      uses: gradle/actions/setup-gradle@v4
+      with:
+        develocity-access-key: ${{ secrets.DV_ACCESS_TOKEN }}
     - name: Build with Gradle
       run: ./gradlew clean build
