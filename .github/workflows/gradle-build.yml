@@ -21,6 +21,7 @@ jobs:
     - name: Set up Gradle
       uses: gradle/actions/setup-gradle@v4
       with:
+        develocity-url: 'https://develocity-field.gradle.com'
         develocity-access-key: ${{ secrets.DV_ACCESS_TOKEN }}
     - name: Build with Gradle
       run: ./gradlew clean build
