@@ -14,6 +14,9 @@ dependencies {
     implementation("androidx.collection:collection:1.4.2")
 
     implementation("org.projectlombok:lombok:1.18.38")
+    annotationProcessor("org.projectlombok:lombok:1.18.38")
+    testImplementation("org.projectlombok:lombok:1.18.38")
+    testAnnotationProcessor("org.projectlombok:lombok:1.18.38")
 
 
     testImplementation(platform("org.junit:junit-bom:5.13.1"))
