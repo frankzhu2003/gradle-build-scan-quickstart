@@ -9,7 +9,7 @@ repositories {
 
 dependencies {
 
-    implementation("org.apache.logging.log4j:log4j-core:2.15.0")
+    implementation("org.elasticsearch.client:elasticsearch-rest-high-level-client:7.6.2")
 
     implementation("androidx.collection:collection:1.4.2")
 
