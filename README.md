@@ -75,3 +75,5 @@ The Build Scan™ quickstart project is open-source software released under the 
 [terms-of-service]: https://gradle.com/terms-of-service
 [scans.gradle.com]: https://scans.gradle.com/
 [gradle-forum]: https://discuss.gradle.org/c/help-discuss/scans
+
+--
