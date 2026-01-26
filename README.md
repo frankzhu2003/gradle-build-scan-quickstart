@@ -22,6 +22,28 @@ Follow the green link shown at the end of the build to view your Build Scan® on
 Note: If you run a build without the `--scan` flag, no Build Scan® will be created and
 no information will be sent.
 
+## Build Acceleration Features
+
+This project demonstrates several build acceleration features:
+
+- **Configuration Cache**: Speeds up configuration phase
+- **Build Cache**: Caches task outputs for faster rebuilds
+- **Remote Build Cache**: Shares cache across team members
+- **Build Scans**: Provides insights into build performance
+
+## GitHub Issue Templates
+
+We've included GitHub issue templates to help with build optimization:
+
+- **[Build Acceleration Recommendations](.github/ISSUE_TEMPLATE/build-acceleration.md)**: Suggestions for additional performance optimizations
+- **[Build Scan Demo](.github/ISSUE_TEMPLATE/build-scan-demo.md)**: Guide to using build scans effectively
+
+To use these templates:
+1. Go to the Issues tab in this repository
+2. Click "New Issue"
+3. Choose one of the templates above
+4. Fill in the details and submit
+
 ## Experiment with Build Scans
 
 Create different kinds of Build Scans by locally modifying this quickstart project. Here are some ideas:
